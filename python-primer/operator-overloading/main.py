@@ -4,7 +4,6 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 from Vector import Vector
-from SequenceIterator import SequenceIterator
 
 
 def print_hi(name):
@@ -18,25 +17,6 @@ if __name__ == '__main__':
     vector = vector + [2, 3, 4, 5, 6]
     print(vector)
 
-    sq = SequenceIterator([1, 2, 3, 4, 5, 6])
-    sq_iter = iter(sq)
-    print(next(sq_iter))
-    print(next(sq_iter))
-    print(next(sq_iter))
-    print(next(sq_iter))
-    print(next(sq_iter))
-    print(next(sq_iter))
-    print(next(sq_iter))
-    print(next(sq_iter))
-
-    print(len(sq))
-
-    i = 0
-    while i < len(sq):
-        print(sq_iter[i])
-        i = i + 1
 
 
 
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
