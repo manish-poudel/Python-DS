@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 from Progression import Progression
+from ArithmeticProgression import ArithmeticProgression
 
 
 def print_hi(name):
@@ -22,5 +23,10 @@ if __name__ == '__main__':
     progression2 = Progression(start=0)
     progression2.print_progression(10)  # 0 1 2 3 4 5 6 7 8 9
 
+    arithmeticProgression = ArithmeticProgression(4)
+    arithmeticProgression.print_progression(10)  # 0 4 8 12 16 20 24 28 32 36
+
+    arithmeticProgression = ArithmeticProgression(10, 1)
+    arithmeticProgression.print_progression(5)  # 1 11 21 31 41
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
