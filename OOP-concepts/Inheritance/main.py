@@ -6,6 +6,7 @@
 from Progression import Progression
 from ArithmeticProgression import ArithmeticProgression
 from GeometricProgression import GeometricProgression
+from FibonacciProgression import FibonacciProgression
 
 
 def print_hi(name):
@@ -37,5 +38,8 @@ if __name__ == '__main__':
 
     geometricProgression = GeometricProgression(3, 10)
     geometricProgression.print_progression(5)  # 10 30 90 270 810
+
+    fibonacciProgression = FibonacciProgression()
+    fibonacciProgression.print_progression(9)  # 0 1 1 2 3 5 8 13 21
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
